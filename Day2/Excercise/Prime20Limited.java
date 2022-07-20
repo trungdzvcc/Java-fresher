@@ -1,7 +1,7 @@
 package Day2.Excercise;
 import java.util.*;
 
-public class PrimeLimited {
+public class Prime20Limited {
     public static void main(String[] args){
         int n;
         int stt = 1;
@@ -11,6 +11,8 @@ public class PrimeLimited {
             n = scanner.nextInt();
             if(n<=1){
                 System.out.println(" you cannot enter less than or equal 1 ");
+            }else if(n>20){
+                System.out.println(" you cannot enter more than 20 elements ");
             }else{
                 for(int i =2 ; i <=100 ; i++){
                     int count = 0;
@@ -29,6 +31,6 @@ public class PrimeLimited {
                     } 
                 }
             }
-        }while(n<=1);
+        }while(n<=1||n>20);
     }
 }
