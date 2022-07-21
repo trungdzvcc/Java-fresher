@@ -17,7 +17,7 @@ public class DeleteElementArray {
   }
 
   public static void DelE(int counter, int[] number, Scanner scanner) {
-    System.out.print("\nEnter delete index : ");
+    System.out.print("\nEnter value delete  : ");
     int d = scanner.nextInt();
     int i = 0;
     int inew = i;
