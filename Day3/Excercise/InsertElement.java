@@ -44,8 +44,6 @@ public class InsertElement {
       counter = scanner.nextInt();
       if (counter <= 0) {
         System.out.println("you must enter the number start to 1 ");
-      } else if (counter > 20) {
-        System.out.println("you must enter the number more than 20 ");
       } else {
         // enter
         input(counter, number);
@@ -59,7 +57,7 @@ public class InsertElement {
           value = scanner.nextInt();   
         insertElement(number, k , counter, value);
       }
-    } while (counter <= 0 || counter > 20);
+    } while (counter <= 0);
     }
     
 }
