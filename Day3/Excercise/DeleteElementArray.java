@@ -16,7 +16,7 @@ public class DeleteElementArray {
     }
   }
 
-  public static void DelE(int counter, int[] number, Scanner scanner) {
+  public static int DelE(int counter, int[] number, Scanner scanner) {
     System.out.print("\nEnter delete element : ");
     int d = scanner.nextInt();
     int i = 0;
@@ -34,8 +34,10 @@ public class DeleteElementArray {
     //update array length
     counter = inew;
     //called output
-    System.out.println("Array after delete:");
-    output(counter, number);
+    // Syste  m.out.println("Array after delete:");
+    // output(counter, number);
+    System.out.println("index method " + counter );
+    return counter;
   }
 
   public static void main(String[] args) {
@@ -56,7 +58,11 @@ public class DeleteElementArray {
         System.out.println("Array just enter:");
         output(counter, number);
         // del
-        DelE(counter, number, scanner);
+        
+        // output(counter, number);
+        counter = DelE(counter, number, scanner);
+        System.out.println("index method " + counter );
+        output(counter, number);
       }
     } while (counter <= 0 || counter > 20);
   }

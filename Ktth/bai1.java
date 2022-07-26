@@ -5,7 +5,6 @@ import java.lang.*;
 public class bai1 {
     public static double chuvi(double ch , double c1, double c2){
         return ch + c1 + c2;
-
     }
     public static double dientich( double c1, double c2){
         return (c1*c2)/2;
