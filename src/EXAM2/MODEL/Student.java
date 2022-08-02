@@ -82,7 +82,6 @@ public class Student {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         try {
             date = formatter.parse(dateBirthDay);
-            System.out.println("Date: " + date);
         } catch (ParseException e) {
             e.printStackTrace();
         }

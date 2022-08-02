@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Date/DateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/AbstractClass/AbstractTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/Interface/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/Comperable/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/HashMapVSHashSet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/MODEL/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManager/ListArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManager/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day8/Practive/StudentSave/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Practive/Map/TestMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EXAM2/CONTROLLER/SortByYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EXAM2/CONTROLLER/SortByYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EXAM2/MODEL/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EXAM2/MODEL/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +50,7 @@
       <recent name="C:\Users\Mai Ngoc Trung\IdeaProjects\FresherJava\src\Day7\Excercise\Model\Resizeble" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateDemo">
+  <component name="RunManager" selected="Application.EXAM2.Main">
     <configuration name="AgeComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day8.Practive.Comperable.AgeComparator" />
       <module name="FresherJava" />
@@ -102,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentManager.Main" />
+    <configuration name="EXAM2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EXAM2.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StudentManager.*" />
+          <option name="PATTERN" value="EXAM2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EXAM2.Main" />
         <item itemvalue="Application.DateDemo" />
         <item itemvalue="Application.AgeComparator" />
         <item itemvalue="Application.Day8.Practive.HashMapVSHashSet.Main" />
         <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
