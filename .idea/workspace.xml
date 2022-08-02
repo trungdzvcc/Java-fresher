@@ -5,28 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparable/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparable/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparator/DemoComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparator/NameCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparator/RatingCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/TestCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/TestIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/TestTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Controller/ControllerMapStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/ListDemo/ArrayAsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/ListDemo/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/ListDemo/ListIteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/View/ViewStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/StudentSave/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Date/DateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/AbstractClass/AbstractTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/Interface/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/Comperable/AgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/HashMapVSHashSet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EXAM2/MODEL/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EXAM2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManager/ListArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManager/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentManager/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day8/Practive/StudentSave/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Practive/Map/TestMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +30,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -67,13 +62,13 @@
       <recent name="C:\Users\Mai Ngoc Trung\IdeaProjects\FresherJava\src\Day7\Excercise\Model\Resizeble" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListIteratorExample">
-    <configuration name="ArrayAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Demo.ListDemo.ArrayAsList" />
+  <component name="RunManager" selected="Application.DateDemo">
+    <configuration name="AgeComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8.Practive.Comperable.AgeComparator" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.Demo.ListDemo.*" />
+          <option name="PATTERN" value="Day8.Practive.Comperable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Demo.ListDemo.ListExample" />
+    <configuration name="DateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Date.DateDemo" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.Demo.ListDemo.*" />
+          <option name="PATTERN" value="Date.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListIteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Demo.ListDemo.ListIteratorExample" />
+    <configuration name="Day8.Practive.HashMapVSHashSet.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8.Practive.HashMapVSHashSet.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.Demo.ListDemo.*" />
+          <option name="PATTERN" value="Day8.Practive.HashMapVSHashSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Demo.Collection.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentManager.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.Demo.Collection.*" />
+          <option name="PATTERN" value="StudentManager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Demo.Collection.TestIterator" />
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day8.Practive.Map.TestMap" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.Demo.Collection.*" />
+          <option name="PATTERN" value="Day8.Practive.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListIteratorExample" />
-        <item itemvalue="Application.ArrayAsList" />
-        <item itemvalue="Application.ListExample" />
-        <item itemvalue="Application.TestIterator" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DateDemo" />
+        <item itemvalue="Application.AgeComparator" />
+        <item itemvalue="Application.Day8.Practive.HashMapVSHashSet.Main" />
+        <item itemvalue="Application.TestMap" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
