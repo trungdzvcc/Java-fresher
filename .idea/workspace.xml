@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparable/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparable/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparator/DemoComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparator/NameCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day7/Test/DemoComparator/RatingCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/TestCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/TestIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Collection/TestTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Controller/ControllerMapStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/ListDemo/ArrayAsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/ListDemo/ListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/ListDemo/ListIteratorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Demo/View/ViewStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/StudentSave/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginMVC/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
