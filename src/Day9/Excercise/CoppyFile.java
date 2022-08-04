@@ -1,4 +1,4 @@
-package Day9.Practive;
+package Day9.Excercise;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -33,11 +33,11 @@ public class CoppyFile {
 
 
         try {
-            FileWriter writer = new FileWriter(filePath, true);
+            FileWriter writer = new FileWriter(filePath);
             BufferedWriter bufferedWriter = new BufferedWriter(writer);
             int i = 0;
             for (int j = 0; j < numbers.size(); j++){
-                bufferedWriter.write(numbers.get(j).toString());
+                bufferedWriter.write(numbers.get(j).toString()+'\n');
             }
             System.out.println("Count characteristics " + i);
             System.out.println("Successfully written ");
@@ -50,6 +50,6 @@ public class CoppyFile {
     public static void main(String[] args) {
         CoppyFile coppyFile = new CoppyFile();
         List<Integer> numbers = coppyFile.readFile("C:/Users/My PC/Desktop/Java-fresher/src/Day9/Practive/number.txt");
-        coppyFile.writeFile("C:/Users/My PC/Desktop/Java-fresher/src/Day9/Practive/coppy.txt", numbers);
+        coppyFile.writeFile("C:/Users/My PC/Desktop/Java-fresher/src/Day9/Excercise/coppy.txt", numbers);
     }
 }
