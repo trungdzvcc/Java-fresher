@@ -12,14 +12,6 @@ public class Account implements Serializable {
     private  int id;
     private  int amount;
 
-    public Account(String fullName, String accountNumber, int amount) {
-        ID++;
-        this.fullName = fullName;
-        this.accountNumber = accountNumber;
-        this.id = ID;
-        this.amount = amount;
-    }
-
     public int getAmount() {
         return amount;
     }
@@ -28,13 +20,23 @@ public class Account implements Serializable {
         this.amount = amount;
     }
 
-    public  AccountHistory listAccountHistory ;
+    public List<AccountHistory> listAccountHistory ;
 
-    public Account(String fullName, String accountNumber, int id, AccountHistory listAccountHistory) {
+    public Account(String fullName, String accountNumber, int amount, List<AccountHistory> listAccountHistory) {
+
         this.fullName = fullName;
         this.accountNumber = accountNumber;
         this.id = id;
+        this.amount = amount;
         this.listAccountHistory = listAccountHistory;
+    }
+
+    public void setListAccountHistory(List<AccountHistory> listAccountHistory) {
+        this.listAccountHistory = listAccountHistory;
+    }
+
+    public List<AccountHistory> getListAccountHistory() {
+        return listAccountHistory;
     }
 
     public Account() {
@@ -66,13 +68,6 @@ public class Account implements Serializable {
         this.id = id;
     }
 
-    public AccountHistory getListAccountHistory() {
-        return listAccountHistory;
-    }
-
-    public void setListAccountHistory(AccountHistory listAccountHistory) {
-        this.listAccountHistory = listAccountHistory;
-    }
 
     @Override
     public String toString() {
@@ -80,10 +75,9 @@ public class Account implements Serializable {
                 "fullName='" + fullName + '\'' +
                 ", accountNumber='" + accountNumber + '\'' +
                 ", id=" + id +
+                ", amount=" + amount +
                 ", listAccountHistory=" + listAccountHistory +
                 '}';
     }
-    public void Show(){
-        System.out.println(toString());
-    }
+
 }

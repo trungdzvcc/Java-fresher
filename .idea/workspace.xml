@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KT3/Controller/SortByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KT3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KT3/Model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KT3/Model/AccountHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KT3/Validate/Validate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KT3/View/ViewAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KT3/Model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KT3/Model/AccountHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Model/AccountHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DAY10.Test.Serialization.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAY10.Test.Serialization.Test" />
+    <configuration name="KT3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KT3.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAY10.Test.Serialization.*" />
+          <option name="PATTERN" value="KT3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KT3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KT3.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EXAM2.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KT3.*" />
+          <option name="PATTERN" value="EXAM2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.KT3.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainProduct" />
         <item itemvalue="Application.CoppyBinary" />
         <item itemvalue="Application.DAY10.Test.Excercise.ProductManager.Main" />
-        <item itemvalue="Application.DAY10.Test.Serialization.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658893940470</updated>
       <workItem from="1659492135178" duration="21654000" />
-      <workItem from="1659920574561" duration="10103000" />
+      <workItem from="1659920574561" duration="16771000" />
     </task>
     <servers />
   </component>

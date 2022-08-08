@@ -17,7 +17,7 @@ import static EXAM2.CONTROLLER.StudentController.scanner;
 public class AccountController {
     public ViewAccount view = new ViewAccount();
     List<AccountHistory> listAccount = new ArrayList<>();
-    List<Account> accounts = new ArrayList<Account>();
+    List<Account> accounts = new ArrayList<>();
     ValidateData validate = new ValidateData();
     public static Scanner scanner = new Scanner(System.in);
 
@@ -75,23 +75,53 @@ public class AccountController {
         }
     }
     public void Raise() {
+        {
+            System.out.println("into Raise");
+            System.out.print("Enter the id of element:");
+            int id = scanner.nextInt();
+            for (int i = 0; i < accounts.size(); i++) {
+                if (accounts.get(i).getId() == id) {
+
+                    boolean check = false;
+                    while(check==false){
+                        System.out.print("Enter the raise:");
+                        int raise = scanner.nextInt();
+                        scanner.nextLine();
+                        System.out.print("Enter the description:");
+                        String description = scanner.nextLine();
+
+                        int newAmount = accounts.get(i).getAmount() + raise;
+                        accounts.get(i).setAmount(newAmount);
+                        System.out.println("Deduction Successfully");
+                        //add history
+                        listAccount.add(new AccountHistory(accounts.get(i).getId(), AccountHistory.Raise, raise, description));
+                        accounts.get(i).setListAccountHistory(listAccount);
+                        check=true;
+
+                    }
+                }
+            }
+
+            writeFile();
+
+        }
     }
 
     public void Deduction() {
-        Thread t1 = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                System.out.print("Enter the id of element delete :");
+
+                System.out.println("into Deduction");
+                System.out.print("Enter the id of element :");
                 int id = scanner.nextInt();
-                scanner.nextLine();
+
                 for (int i = 0; i < accounts.size(); i++) {
                     if (accounts.get(i).getId() == id) {
 
                             boolean check = false;
-                            do {
+                        while (check==false){
                                 System.out.print("Enter the deduction:");
                                 int deduction = scanner.nextInt();
-                                System.out.print("Enter the deduction:");
+                                scanner.nextLine();
+                                System.out.print("Enter the description:");
                                 String description = scanner.nextLine();
                                 if(accounts.get(i).getAmount()< deduction){
                                     System.out.println("Please enter the amount deduction < amount current:");
@@ -101,15 +131,20 @@ public class AccountController {
                                     System.out.println("Deduction Successfully");
                                     //add history
                                     listAccount.add(new AccountHistory(accounts.get(i).getId(),AccountHistory.Deduction,deduction,description));
+                                    accounts.get(i).setListAccountHistory(listAccount);
+                                    check=true;
                                 }
-                            }while (check);
-                    }else {
-                        System.out.println("Cannot find id");
+                            }
+
                     }
+
+
                 }
+        writeFile();
             }
-        });
-    }
+
+
+
 
     public List<Account> searchAccountByName() {
         List<Account> searchNameList = new ArrayList<>();
@@ -213,10 +248,11 @@ public class AccountController {
         }
         System.out.println("List account read by file");
         for(int i = 0; i <accounts.size(); i++){
-            accounts.get(i).Show();
+            System.out.println(accounts.get(i));
         }
     }
     public void enterAccountInfo() {
+
         String accountName = "";
         String accountNumber = "";
         int amount = 0;
@@ -231,6 +267,7 @@ public class AccountController {
             scanner.nextLine();
             int i = 0;
             while (i < n) {
+                Account account = new Account();
                 System.out.println("Account information " + (i + 1));
                 System.out.print("Enter the name account :");
                 accountName = scanner.nextLine();
@@ -247,9 +284,13 @@ public class AccountController {
                     validate.showmessage();
                     continue;
                 }
-                accounts.add(new Account(accountName, accountNumber, amount));
+                account.setFullName(accountName);
+                account.setAccountNumber(accountNumber);
+                account.setAmount(amount);
+                accounts.add(account);
                 i++;
             }
+            System.out.println(accounts);
         } while (n <= 0);
         writeFile();
     }

@@ -1,6 +1,8 @@
 package KT3.Model;
 
-public class AccountHistory {
+import java.io.Serializable;
+
+public class AccountHistory implements Serializable {
     public static final String Raise = "Raise";
     public static final String Deduction = "Deduction";
     private  int ID;
