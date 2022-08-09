@@ -21,6 +21,11 @@ public class AccountController {
     ValidateData validate = new ValidateData();
     public static Scanner scanner = new Scanner(System.in);
 
+//    public AccountController(List<AccountHistory> listAccount, List<Account> accounts) {
+//        this.listAccount = listAccount;
+//        this.accounts = accounts;
+//    }
+
     public void enterAcount() {
         Scanner scanner = new Scanner(System.in);
         String choose = null;
@@ -116,7 +121,7 @@ public class AccountController {
                 for (int i = 0; i < accounts.size(); i++) {
                     if (accounts.get(i).getId() == id) {
 
-                            boolean check = false;
+                        boolean check = false;
                         while (check==false){
                                 System.out.print("Enter the deduction:");
                                 int deduction = scanner.nextInt();

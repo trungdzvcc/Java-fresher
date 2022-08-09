@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/SharedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Thread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/ThreadRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/CountNumber/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/RacingCars/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/RacingCars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/Runnable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/Runnable/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Test/ThreadOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Test/ThreadTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KT3/Model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KT3/Model/AccountHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Model/AccountHistory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +65,13 @@
       <recent name="C:\Users\Mai Ngoc Trung\IdeaProjects\FresherJava\src\Day7\Excercise\Model\Resizeble" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KT3.Main">
-    <configuration name="CoppyBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAY10.Test.CoppyBinaryFile.CoppyBinary" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Day11.Demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Demo.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAY10.Test.CoppyBinaryFile.*" />
+          <option name="PATTERN" value="Day11.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DAY10.Test.Excercise.ProductManager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAY10.Test.Excercise.ProductManager.Main" />
+    <configuration name="Day11.Practive.RacingCars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Practive.RacingCars.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAY10.Test.Excercise.ProductManager.*" />
+          <option name="PATTERN" value="Day11.Practive.RacingCars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KT3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KT3.Main" />
+    <configuration name="Day11.Practive.Runnable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Practive.Runnable.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KT3.*" />
+          <option name="PATTERN" value="Day11.Practive.Runnable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EXAM2.Main" />
+      <option name="MAIN_CLASS_NAME" value="Day11.Practive.CountNumber.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EXAM2.*" />
+          <option name="PATTERN" value="Day11.Practive.CountNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day8.Excercise.MainProduct" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Test.Test" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day8.Excercise.*" />
+          <option name="PATTERN" value="Day11.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KT3.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainProduct" />
-        <item itemvalue="Application.CoppyBinary" />
-        <item itemvalue="Application.DAY10.Test.Excercise.ProductManager.Main" />
+        <item itemvalue="Application.Day11.Practive.RacingCars.Main" />
+        <item itemvalue="Application.Day11.Practive.Runnable.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Day11.Demo.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658893940470</updated>
       <workItem from="1659492135178" duration="21654000" />
-      <workItem from="1659920574561" duration="16771000" />
+      <workItem from="1659920574561" duration="40264000" />
     </task>
     <servers />
   </component>
@@ -156,5 +167,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalMonitorStateException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
