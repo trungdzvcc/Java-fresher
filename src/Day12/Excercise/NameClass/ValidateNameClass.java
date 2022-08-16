@@ -1,4 +1,4 @@
-package Day12.Excercise;
+package Day12.Excercise.NameClass;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
