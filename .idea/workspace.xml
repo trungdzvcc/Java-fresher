@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DAY10/CoppyBinaryFile/CoppyBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/CoppyBinaryFile/sourceFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/CoppyBinaryFile/tagetFile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Excercise/ProductManager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Excercise/ProductManager/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Excercise/ProductManager/ProductObj.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Practive/CoppyFile/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Practive/CoppyFile/begin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Practive/CoppyFile/taget" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Practive/ReadWriteObj/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Practive/ReadWriteObj/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Practive/ReadWriteObj/student.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Serialization/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Serialization/studennt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/Serialization/studentlist.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/TestFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAY10/test_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Date/DateDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/Controller/ControllerProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/Controller/SortAscensePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/Controller/SortDescensePrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/Interface/InterfaceProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/MainProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/Model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/Validate/ValidateData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Excercise/View/ViewProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/AbstractClass/AbstractTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/Interface/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/TestBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/BST/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/Comperable/AgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/HashMapVSHashSet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day8/Practive/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/CONTROLLER/SortByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/CONTROLLER/SortByYear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/CONTROLLER/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/Interface/interfaceStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/MODEL/ClassRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/MODEL/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EXAM2/VIEW/ViewStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaCollection/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/New Text Document.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManager/ListArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManager/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentManager/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day8/Practive/StudentSave/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day8/Practive/Map/TestMap.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
