@@ -18,28 +18,26 @@ public class TestBinarySearch {
     }
 
     public static boolean BinarySearchRecusive(int[] a, int x, int l, int r){
-            int mid = (l+r)/2;
-            if(a[mid]==x){
-                return true;
-            } else if (a[mid]<x){
-                 return BinarySearchRecusive(a,x,mid+1,r);
-            }else{
-                 return BinarySearchRecusive(a,x,l,mid-1);
+            if(l<=r){
+                int mid = (l+r)/2;
+                if(a[mid]==x){
+                    return true;
+                } else if (a[mid]<x){
+                    return BinarySearchRecusive(a,x,mid+1,r);
+                }else{
+                    return BinarySearchRecusive(a,x,l,mid-1);
+                }
             }
+            else return false;
     }
 
     public static void main(String[] args){
         int[] a = new int[]{1, 3, 5, 7, 9, 10, 12, 16, 18, 20};
         int x = 19;
-
         if(BinarySearch(a,x)) System.out.println("Succes");
         else System.out.println("faild");
-        x=18;
+        x=22;
         if(BinarySearchRecusive(a,x,0,9)) System.out.println("Succes");
         else System.out.println("Faild recusive");
-
-
-
-
     }
 }

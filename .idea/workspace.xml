@@ -4,9 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/SharedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Thread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Thread3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/ThreadRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/CountNumber/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/RacingCars/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/RacingCars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/Runnable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/Runnable/RunnableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Test/ThreadOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day11/Test/ThreadTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" afterDir="false" />
+    </list>
+=======
+    <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="" />
+>>>>>>> origin/Day14
+>>>>>>> fad9e6b92f172a2657136402328f66663ccb6a72
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,29 +59,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mai Ngoc Trung/IdeaProjects/FresherJava/src/Day7/Excercise/Model/Resizeble&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/My PC/Desktop/Java-fresher",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mai Ngoc Trung\IdeaProjects\FresherJava\src\Day7\Excercise\Model\Resizeble" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.TestBinarySearch">
     <configuration name="CoppyBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DAY10.Test.CoppyBinaryFile.CoppyBinary" />
+=======
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Day11.Demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Demo.Main" />
+>>>>>>> fad9e6b92f172a2657136402328f66663ccb6a72
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAY10.Test.CoppyBinaryFile.*" />
+          <option name="PATTERN" value="Day11.Demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DAY10.Test.Excercise.ProductManager.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAY10.Test.Excercise.ProductManager.Main" />
+    <configuration name="Day11.Practive.RacingCars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Practive.RacingCars.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAY10.Test.Excercise.ProductManager.*" />
+          <option name="PATTERN" value="Day11.Practive.RacingCars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DAY10.Test.Practive.ReadWriteObj.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAY10.Test.Practive.ReadWriteObj.Main" />
+    <configuration name="Day11.Practive.Runnable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Practive.Runnable.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAY10.Test.Practive.ReadWriteObj.*" />
+          <option name="PATTERN" value="Day11.Practive.Runnable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DAY10.Test.Serialization.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DAY10.Test.Serialization.Test" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Practive.CountNumber.Main" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DAY10.Test.Serialization.*" />
+          <option name="PATTERN" value="Day11.Practive.CountNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +134,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TestBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day14.Test.BinarySearch.TestBinarySearch" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Day14.Test.BinarySearch.*" />
+=======
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day11.Test.Test" />
+      <module name="FresherJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day11.Test.*" />
+>>>>>>> fad9e6b92f172a2657136402328f66663ccb6a72
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +158,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.TestBinarySearch" />
         <item itemvalue="Application.CoppyBinary" />
         <item itemvalue="Application.DAY10.Test.Excercise.ProductManager.Main" />
         <item itemvalue="Application.DAY10.Test.Serialization.Test" />
         <item itemvalue="Application.DAY10.Test.Practive.ReadWriteObj.Main" />
+=======
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Day11.Practive.RacingCars.Main" />
+        <item itemvalue="Application.Day11.Practive.Runnable.Main" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Day11.Demo.Main" />
+>>>>>>> fad9e6b92f172a2657136402328f66663ccb6a72
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658893940470</updated>
       <workItem from="1659492135178" duration="21654000" />
+      <workItem from="1659920574561" duration="40264000" />
     </task>
     <servers />
   </component>
@@ -156,8 +205,13 @@
     <breakpoint-manager>
       <breakpoints>
         <breakpoint enabled="true" type="java-exception">
+<<<<<<< HEAD
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="4" />
+=======
+          <properties class="java.lang.IllegalMonitorStateException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+>>>>>>> fad9e6b92f172a2657136402328f66663ccb6a72
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
