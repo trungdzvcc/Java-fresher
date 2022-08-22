@@ -4,28 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/SharedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Thread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/Thread3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Demo/ThreadRandom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/CountNumber/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/RacingCars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/RacingCars/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/Runnable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Practive/Runnable/RunnableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Test/ThreadOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day11/Test/ThreadTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day15/Excercise/IllegalTriangleException/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day15/Excercise/IllegalTriangleException/IllegalTriangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day15/Excercise/IllegalTriangleException/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day15/Prative/ArrayIndexOutOfBoundsException/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day15/Prative/DebugJavaApplication/LinearEquationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day15/Prative/NumberFormatException/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/Controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/KT3/File/AccountFile.txt" afterDir="false" />
     </list>
-=======
-    <list default="true" id="3c090031-5fea-4d3d-aa4c-da0aa975fbdf" name="Changes" comment="" />
->>>>>>> origin/Day14
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,29 +41,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/My PC/Desktop/Java-fresher",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/My PC/Desktop/Java-fresher&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mai Ngoc Trung\IdeaProjects\FresherJava\src\Day7\Excercise\Model\Resizeble" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Day11.Demo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.Demo.Main" />
+  <component name="RunManager" selected="Application.Triangle">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day15.Prative.ArrayIndexOutOfBoundsException.ArrayExample" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.Demo.*" />
+          <option name="PATTERN" value="Day15.Prative.ArrayIndexOutOfBoundsException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day11.Practive.RacingCars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.Practive.RacingCars.Main" />
+    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day15.Prative.NumberFormatException.CalculationExample" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.Practive.RacingCars.*" />
+          <option name="PATTERN" value="Day15.Prative.NumberFormatException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,25 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day11.Practive.Runnable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.Practive.Runnable.Main" />
+    <configuration name="LinearEquationResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day15.Prative.DebugJavaApplication.LinearEquationResolver" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.Practive.Runnable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.Practive.CountNumber.Main" />
-      <module name="FresherJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Day11.Practive.CountNumber.*" />
+          <option name="PATTERN" value="Day15.Prative.DebugJavaApplication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +101,18 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day11.Test.Test" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="FresherJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day15.Excercise.IllegalTriangleException.Triangle" />
       <module name="FresherJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day11.Test.*" />
+          <option name="PATTERN" value="Day15.Excercise.IllegalTriangleException.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Day11.Practive.RacingCars.Main" />
-        <item itemvalue="Application.Day11.Practive.Runnable.Main" />
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.CalculationExample" />
+        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="Application.LinearEquationResolver" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Day11.Demo.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -155,6 +140,8 @@
       <updated>1658893940470</updated>
       <workItem from="1659492135178" duration="21654000" />
       <workItem from="1659920574561" duration="40264000" />
+      <workItem from="1660705921631" duration="17016000" />
+      <workItem from="1660873153123" duration="8063000" />
     </task>
     <servers />
   </component>
@@ -179,6 +166,25 @@
           <properties class="java.lang.IllegalMonitorStateException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day15/Prative/DebugJavaApplication/LinearEquationResolver.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day15/Prative/DebugJavaApplication/LinearEquationResolver.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Day15/Prative/NumberFormatException/CalculationExample.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
